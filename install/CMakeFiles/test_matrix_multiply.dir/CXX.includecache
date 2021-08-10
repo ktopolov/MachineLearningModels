@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../c++/lib/cmath.h
+string
+-
+iostream
+-
+vector
+-
+memory
+-
+
+/home/ktopolov/MachineLearningModels/c++/lib/cmath.cpp
+stdexcept
+-
+cmath.h
+/home/ktopolov/MachineLearningModels/c++/lib/cmath.h
+
+/home/ktopolov/MachineLearningModels/c++/lib/cmath.h
+string
+-
+iostream
+-
+vector
+-
+memory
+-
+
+/home/ktopolov/MachineLearningModels/c++/tests/test_matrix_multiply.cpp
+string
+-
+iostream
+-
+vector
+-
+cmath.h
+/home/ktopolov/MachineLearningModels/c++/tests/cmath.h
+
